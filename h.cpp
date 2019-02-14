@@ -35,14 +35,16 @@ void solve()
         {
             if (field[i][j] == 'W')
             {
+
+            
                 //Wが残っているなら、そこからdfsを始める
                 dfs(i, j);
                 res++;
-                cout << res << endl;
+                //cout << res << endl;
             }
         }
     }
-    cout << res << endl;
+    //cout << res << endl;
 }
 int main()
 {
@@ -54,13 +56,6 @@ int main()
             cin >> field[i][j];
         }
     }
-    for (int i = 0; i < N; i++)
-    {
-        for (int j = 0; j < M; j++)
-        {
-            cout << field[i][j];
-        }
-    }
-    return 0;
     solve();
+    return 0;
 }
