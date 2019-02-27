@@ -25,5 +25,5 @@ void solve(){
         que.push(l1+l2);
     }
     printf("%lld\n", ans);
-    
+
 }
