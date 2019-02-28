@@ -13,7 +13,7 @@ void solve()
     priority_queue<int> que;
 
     //ans: 補給回数、pos：今いる場所、tank:タンクのガソリン量
-    int ans = 0;
+    int ans = 0; 
     pos = 0;
     tank = P;
 
