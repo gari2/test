@@ -25,7 +25,7 @@ void selection(struct Card A[], int N){
 
 void print(struct Card A[], int N){
     for(int i=0;i<N;i++){
-        if(i > 0)cout << " ";
+        if(i > 0)cout << "N ";
         cout << A[i].suit << A[i].value;
     }
     cout << endl;
